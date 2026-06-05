@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎉 Event Management System 🎉</h1>
+    <p>Plan, Organize and Celebrate Events</p>
+</header>
+
+<section class="banner">
+    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=1200" alt="Event Banner">
+</section>
+
+<section class="congrats">
+    <h2>🎊 Congratulations! 🎊</h2>
+    <p>Welcome to our Upcoming Events Portal. Stay updated and join exciting events!</p>
+</section>
+
+<section class="form-section">
+    <h2>Add New Event</h2>
+
+    <input type="text" id="eventName" placeholder="Event Name">
+
+    <input type="date" id="eventDate">
+
+    <input type="text" id="eventLocation" placeholder="Location">
+
+    <input type="text" id="eventImage" placeholder="Paste Image URL">
+
+    <button onclick="addEvent()">Add Event</button>
+</section>
+
+<section>
+    <h2 class="title">Upcoming Events</h2>
+    <div id="eventList"></div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
